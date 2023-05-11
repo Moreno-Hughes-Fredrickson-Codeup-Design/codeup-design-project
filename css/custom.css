@@ -7,6 +7,10 @@
     --lightGray: #E6E6E6;
 }
 
+* {
+    margin: 0;
+}
+
 body {
     background-color: var(--lightGray);
     font-family: Abel;
@@ -19,5 +23,46 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Anton;
+}
 
+#badges h6 {
+    color: var(--offWhite)
+}
+
+#orange-badge {
+    border: 7px solid white;
+    background-color: var(--orange);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#tang-badge {
+    border: 7px solid white;
+    background-color: var(--tang);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#mint-badge {
+    border: 7px solid white;
+    background-color: var(--mint);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#jade-badge {
+    border: 7px solid white;
+    background-color: var(--jade);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.large-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
