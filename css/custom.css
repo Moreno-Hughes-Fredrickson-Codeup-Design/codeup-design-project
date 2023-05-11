@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--lightGray);
+    background-color: var(--offWhite);
     font-family: Abel;
 }
 
@@ -65,4 +65,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card-img-top{
+    border: 7px solid var(--lightGray);
+}
+.card{
+    background-color: transparent;
 }
