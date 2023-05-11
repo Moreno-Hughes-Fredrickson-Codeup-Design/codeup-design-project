@@ -1,3 +1,23 @@
+:root {
+    --orange: #E6563B;
+    --tang: #EB9D3A;
+    --mint: #7CB06C;
+    --jade: #00ABA9;
+    --offWhite: #F0F0F0;
+    --lightGray: #E6E6E6;
+}
+
 body {
-    background-color: #e6e6e6;
+    background-color: var(--lightGray);
+    font-family: Abel;
+}
+
+#logo {
+    height: 105px;
+    width: 105px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Anton;
+
 }
