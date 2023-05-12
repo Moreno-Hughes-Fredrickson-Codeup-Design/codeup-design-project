@@ -36,7 +36,7 @@ h6 {
   font-family: Anton;
 }
 
-#badges h6 {
+#badges h4 {
   color: var(--offWhite);
 }
 
@@ -130,7 +130,11 @@ h6 {
   height: 25px;
   width: 25px;
 }
-.article-image{
-    height: 5em;
-    width: 5em;
+.article-image {
+  height: 5em;
+  width: 5em;
+}
+
+.last-tweet {
+  margin-left: 20px;
 }
