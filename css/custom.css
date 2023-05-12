@@ -81,6 +81,7 @@ h6 {
 .card-img-top {
   border: 7px solid var(--lightGray);
 }
+
 .card {
   background-color: transparent;
 }
@@ -91,6 +92,11 @@ h6 {
 
 .small-badges {
   float: right;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0px 2px;
 }
 
 .small-badge-text {
@@ -99,6 +105,27 @@ h6 {
 
 #small-orange-badge {
   background-color: var(--orange);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+#small-tang-badge {
+  background-color: var(--tang);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+#small-mint-badge {
+  background-color: var(--mint);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+#small-jade-badge {
+  background-color: var(--jade);
   border-radius: 50%;
   height: 25px;
   width: 25px;
